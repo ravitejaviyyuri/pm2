@@ -9,9 +9,9 @@ module.exports = {
       deploy : {
         production : {
           "user" : 'ubuntu',
-          "host" : '107.21.225.214',
+          "host" : '172.31.3.120',
           "ref"  : 'origin/master',
-          "repo" : 'git@bitbucket.org:edureka/ecom_react.git',
+          "repo" : 'https://github.com/ravitejaviyyuri/pm2.git',
           "path" : '/home/ubuntu/pm2-apps/ecom-react',
           "pre-deploy-local": '',
           "post-deploy" : 'npm install && npm run build && pm2 startOrRestart ecosystem.config.js --name ECOM-NEXT',
