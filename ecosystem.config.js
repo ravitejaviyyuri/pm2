@@ -9,7 +9,7 @@ module.exports = {
       deploy : {
         production : {
           "user" : 'ubuntu',
-          "host" : '172.31.3.120',
+          "host" : 'localhost',
           "ref"  : 'origin/master',
           "repo" : 'git@github.com:ravitejaviyyuri/pm2.git',
           "path" : '/home/ubuntu/pm2/ecom-react',
